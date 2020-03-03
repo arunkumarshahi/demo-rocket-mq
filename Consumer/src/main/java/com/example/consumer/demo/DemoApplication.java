@@ -1,13 +1,13 @@
-package com.example.demorocketjms;
+package com.example.consumer.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoRocketJmsApplication {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoRocketJmsApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }

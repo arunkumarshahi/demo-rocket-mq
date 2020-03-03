@@ -1,4 +1,5 @@
-package com.example.demorocketjms.mq;
+package com.example.consumer.demo;
+
 
 
 
@@ -22,7 +23,12 @@ public class ConsumerApplication {
     }
 }
 
-
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+class Greeting {
+    private String message;
+}
 
 @Log4j2
 @Service

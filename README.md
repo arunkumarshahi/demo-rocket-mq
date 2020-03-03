@@ -19,7 +19,7 @@ https://archive.apache.org/dist/rocketmq/4.6.1/rocketmq-all-4.6.1-source-release
  ## start broker 
   /home/arun/software/rocketmq-all-4.6.1-source-release/distribution/target/rocketmq-4.6.1/rocketmq-4.6.1/bin
   
-  sh mqbroker
+  sh mqbroker  -n localhost:9876
   
   it may end up showing following error - There is insufficient memory for the Java Runtime Environment to continue
   
